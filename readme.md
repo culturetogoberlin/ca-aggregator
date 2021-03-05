@@ -12,9 +12,9 @@
 
 ## Description
 
-This module was developped for the collection database of [German Emigration Center](https://dah-bremerhaven.de/english/), Bremerhaven, Germany in the context of the [museum4punkt0 initiative](https://www.museum4punkt0.de/en/). It provides a lightweight middleware that aggregates and processes data from a CollectiveAccess REST API and stores it in a MongoDB NoSQL database. Aggregation is meant to be done independendly from data usage by a frontend or public API, so e.g. by triggering a URL or priodically via a cronjob. The goal is to reduce the size and complexitity of the data to the extend that is necessary for specific usages in decoupled systems. The module can also be used to store all relevant data in a largly software-agnosic format, in order to minimize the lock-in effect associated with choosing a Database Management System.
+This module was developed for the collection database of [German Emigration Center](https://dah-bremerhaven.de/english/), Bremerhaven, Germany in the context of the [museum4punkt0 initiative](https://www.museum4punkt0.de/en/). It provides a lightweight middleware that aggregates and processes data from a CollectiveAccess REST API and stores it in a MongoDB NoSQL database. Aggregation is meant to be done independendly from data usage by a frontend or public API, so e.g. by triggering a URL or priodically via a cronjob. The goal is to reduce the size and complexitity of the data to the extend that is necessary for specific usages in decoupled systems. The module can also be used to store all relevant data in a largly software-agnosic format, in order to minimize the lock-in effect associated with choosing a Database Management System.
 
-The CollectiveAccess Data Aggregator runs a NodeJS Express Server with Axios to query the CollectiveAccess REST API and Mongoose to store Data to Mongo DB.
+The CollectiveAccess Data Aggregator runs a NodeJS Express Server with Axios to query the CollectiveAccess REST API and Mongoose to store data to Mongo DB.
 
 ## Resources
 
@@ -83,7 +83,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-The portions of the project that were developed by NEEEU Spaces GmbH, 2018 as part of project are provided under the MIT license.
+The portions of the project that were developed by Culture-to-go GbR as part of project are provided under the MIT license.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
